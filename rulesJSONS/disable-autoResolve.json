@@ -1,0 +1,16 @@
+{
+    "actions": [
+        {
+            "unique_id": "99901e99-0118-4cb4-afea-1921b718a945",
+            "action_type": 1,
+            "key": "",
+            "value": "0",
+            "escalation_policy": null,
+            "schedule": null,
+            "assign_to": null,
+            "task_template": null
+        }
+    ],
+    "description": "disable-autoResolve",
+    "rule_json": "{\"type\":\"group\",\"id\":\"9a99988a-0123-4456-b89a-b1607f326fd8\",\"children1\":{\"898aa9ba-0123-4456-b89a-b16a429f5d94\":{\"type\":\"rule\",\"id\":\"898aa9ba-0123-4456-b89a-b16a429f5d94\",\"properties\":{\"field\":\"alert.alert_type\",\"operator\":\"select_equals\",\"value\":[\"resolved\"],\"valueSrc\":[\"value\"],\"operatorOptions\":null,\"valueType\":[\"select\"]},\"path\":[\"9a99988a-0123-4456-b89a-b1607f326fd8\",\"898aa9ba-0123-4456-b89a-b16a429f5d94\"]}},\"properties\":{\"conjunction\":\"AND\",\"not\":false},\"path\":[\"9a99988a-0123-4456-b89a-b1607f326fd8\"]}"
+}
