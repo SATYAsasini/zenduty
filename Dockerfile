@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64,linux/arm64 python:3.8
+FROM python:3.8
 RUN mkdir /app
 WORKDIR /app
 COPY . /app/
