@@ -70,11 +70,11 @@ def main():
             applied_rules = {}
 
             getRules(service_id, integration_id, applied_rules)
-            #print("Rule Applying Status")
-            #print("--------------------------------------------------------------------------------")
-            #for filename in os.listdir(json_folder):
-                #rule_file = os.path.join(json_folder, filename)
-                #make_api_request(service_id, integration_id, rule_file, applied_rules)
+            print("Rule Applying Status")
+            print("--------------------------------------------------------------------------------")
+            for filename in os.listdir(json_folder):
+                rule_file = os.path.join(json_folder, filename)
+                make_api_request(service_id, integration_id, rule_file, applied_rules)
             print("--------------------------------------------------------------------------------")
             print("\n")
 
